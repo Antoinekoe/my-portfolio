@@ -25,32 +25,32 @@ const Hero = () => {
         <div className="z-9">
           <img
             className="floatElement absolute h-[60px] top-[100px] right-[20px]"
-            src="../public/doodles/hero/speech.svg"
+            src="/doodles/hero/speech.svg"
             alt=""
           />
           <img
             className="floatElement absolute h-[70px] bottom-[280px] right-[30px]"
-            src="../public/doodles/hero/coding.svg"
+            src="/doodles/hero/coding.svg"
             alt=""
           />
           <img
             className="floatElement absolute h-[80px] top-[400px] right-[20px]"
-            src="../public/doodles/hero/html.svg"
+            src="/doodles/hero/html.svg"
             alt=""
           />
           <img
             className="floatElement absolute h-[100px] top-[60px] left-[10px]"
-            src="../public/doodles/hero/js.svg"
+            src="/doodles/hero/js.svg"
             alt=""
           />
           <img
             className="floatElement absolute h-[100px] left-[50px]"
-            src="../public/doodles/hero/laptop.svg"
+            src="/doodles/hero/laptop.svg"
             alt=""
           />
           <img
             className="floatElement absolute h-[70px] bottom-[450px] left-[70px]"
-            src="../public/doodles/hero/star-outline.svg"
+            src="/doodles/hero/star-outline.svg"
             alt=""
           />
         </div>
