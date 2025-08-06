@@ -8,3 +8,7 @@
 body {
   overflow-y: scroll;
 }
+
+.listItems {
+  @apply border-b-white border-b-1 pb-5;
+}
