@@ -29,3 +29,7 @@ body {
   animation: float 2s infinite;
   opacity: 0.5;
 }
+
+.techStack {
+  @apply text-[#0D1116] bg-white rounded-2xl px-3 py-1 text-sm;
+}

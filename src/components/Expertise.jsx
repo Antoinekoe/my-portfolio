@@ -2,18 +2,83 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div className="bg-[#0D1116] px-8 text-white flex flex-col items-start gap-5">
+    <div className="bg-[#0D1116] px-8 text-white flex flex-col items-start gap-5 pt-10">
       <h2 className="text-4xl font-bold">Expertise</h2>
       <img
         className="h-[40px] fill-white"
         src="/doodles/hero/react.svg"
         alt=""
       />
-      <h3>Développement web Full Stack</h3>
+      <h3 className="font-bold text-lg">Développement web Full Stack</h3>
       <span>
-        J'ai développé une gamme variée d'applications web à partir de zéro en
-        utilisant des technologies modernes telles que React ou encore Nodejs.
+        Je développe des applications web à partir de zéro en utilisant des
+        technologies modernes telles que React ou encore Nodejs.
       </span>
+
+      <div className="flex flex-wrap gap-2 items-center">
+        <span>Stack technique :</span>
+        <span className="techStack">React</span>
+        <span className="techStack">Nodejs</span>
+        <span className="techStack">JavaScript</span>
+        <span className="techStack">PostgreSQL</span>
+        <span className="techStack">Express</span>
+        <span className="techStack">HTML5</span>
+        <span className="techStack">CSS3</span>
+        <span className="techStack">GitHub</span>
+      </div>
+
+      <img
+        className="h-[40px] fill-white"
+        src="/doodles/expertise/wordpress.svg"
+        alt=""
+      />
+      <h3 className="font-bold text-lg">Création de sites WordPress</h3>
+      <span>
+        Je crée des sites web avec WordPress, du recueil du besoin à la mise en
+        ligne, en passant par l'optimisation de la performance et du
+        référencement.
+      </span>
+
+      <div className="flex flex-wrap gap-2 items-center">
+        <span>Stack technique :</span>
+        <span className="techStack">WordPress</span>
+        <span className="techStack">Figma</span>
+        <span className="techStack">Elementor Pro</span>
+        <span className="techStack">Hello Elementor</span>
+        <span className="techStack">Photoshop</span>
+        <span className="techStack">Illustrator</span>
+        <span className="techStack">InDesign</span>
+        <span className="techStack">HTML5</span>
+        <span className="techStack">CSS3</span>
+        <span className="techStack">JavaScript</span>
+      </div>
+
+      <img
+        className="h-[40px] fill-white"
+        src="/doodles/expertise/handshake.svg"
+        alt=""
+      />
+      <h3 className="font-bold text-lg">
+        Gestion de projets digitaux et webmastering
+      </h3>
+      <span>
+        Je coordonne et optimise le fonctionnement de multiples supports web
+        (Sites web, fiches Google, réseaux sociaux) en assurant leur performance
+        technique, leur conformité aux standards actuels et leur pertinence
+        stratégique pour les objectifs d'entreprise.
+      </span>
+
+      <div className="flex flex-wrap gap-2 items-center">
+        <span>Stack technique :</span>
+        <span className="techStack">Jira</span>
+        <span className="techStack">WordPess</span>
+        <span className="techStack">Jahia</span>
+        <span className="techStack">Google Analytics</span>
+        <span className="techStack">AT Internet</span>
+        <span className="techStack">Google Business Profile</span>
+        <span className="techStack">SEMrush</span>
+        <span className="techStack">Slack</span>
+      </div>
     </div>
   );
 };
