@@ -12,3 +12,20 @@ body {
 .listItems {
   @apply border-b-white border-b-1 pb-5;
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.floatElement {
+  animation: float 2s infinite;
+  opacity: 0.5;
+}
