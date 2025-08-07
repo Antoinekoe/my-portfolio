@@ -1,5 +1,6 @@
 import Career from "./components/Career";
 import Expertise from "./components/Expertise";
+import Footer from "./components/Footer";
 import Form from "./components/Form";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <Career />
       <Projects />
       <Form />
+      <Footer />
     </>
   );
 }
