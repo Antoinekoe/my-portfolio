@@ -2,7 +2,10 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div className="bg-[#0D1116] px-8 text-white flex flex-col items-start gap-5 py-10">
+    <div
+      className="bg-[#0D1116] px-8 text-white flex flex-col items-start gap-5 py-10"
+      id="expertise"
+    >
       <h2 className="text-4xl font-bold">Expertise</h2>
       <img
         className="h-[40px] fill-white"

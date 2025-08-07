@@ -32,19 +32,18 @@ const Form = () => {
     setIsLoading(true);
 
     try {
-      // Remplacez par vos vraies clés EmailJS
       const result = await emailjs.send(
-        import.meta.env.VITE_YOUR_SERVICE_ID, // Service ID depuis EmailJS
-        import.meta.env.VITE_YOUR_TEMPLATE_ID, // Template ID depuis EmailJS
+        import.meta.env.VITE_YOUR_SERVICE_ID,
+        import.meta.env.VITE_YOUR_TEMPLATE_ID,
         {
           from_fName: input.fName.trim(),
           from_lName: input.lName.trim(),
           from_email: input.email.trim(),
           from_phone: input.phone.trim() || "Non renseigné",
           message: input.message.trim(),
-          to_email: "antoine.koe@gmail.com", // Votre email
+          to_email: "antoine.koe@gmail.com",
         },
-        import.meta.env.VITE_YOUR_API_KEY // Public Key depuis EmailJS
+        import.meta.env.VITE_YOUR_API_KEY
       );
 
       setFormMessage("Message envoyé avec succès !");
@@ -66,7 +65,10 @@ const Form = () => {
   };
 
   return (
-    <div className="flex flex-col px-8 gap-5 bg-[#0D1116] text-white pb-10">
+    <div
+      className="flex flex-col px-8 gap-5 bg-[#0D1116] text-white pb-10"
+      id="contact"
+    >
       <h2 className="text-4xl font-bold">Contactez-moi !</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-2">
         <label>Nom *</label>
@@ -75,7 +77,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.lName}
           name="lName"
-          className="bg-white text-black rounded focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2"
           maxLength={40}
           required
         />
@@ -85,7 +87,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.fName}
           name="fName"
-          className="bg-white text-black rounded focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2"
           maxLength={40}
           required
         />
@@ -95,7 +97,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.email}
           name="email"
-          className="bg-white text-black rounded focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2"
           maxLength={40}
           required
         />
@@ -106,7 +108,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.phone}
           name="phone"
-          className="bg-white text-black rounded focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2"
           maxLength={30}
         />
         <label>Votre message *</label>
@@ -119,11 +121,11 @@ const Form = () => {
           minLength={3}
           required
         />
-        <div className="flex justify-end gap-2">
+        <div className="flex justify-end gap-2 mt-2">
           {formMessage.length > 0 ? <div>{formMessage}</div> : ""}
           <button
             type="submit"
-            className="flex justify-center items-center text-[#0D1116] bg-white rounded px-2 gap-2"
+            className="flex justify-center items-center text-[#0D1116] bg-white rounded px-3 py-1 gap-2"
           >
             Envoyer{" "}
             {isLoading ? (

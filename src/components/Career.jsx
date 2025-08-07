@@ -8,7 +8,7 @@ import { BriefcaseBusiness, X } from "lucide-react";
 
 const Career = () => {
   return (
-    <div className="bg-[#0D1116] pb-10 px-8">
+    <div className="bg-[#0D1116] pb-10 px-8" id="histoire">
       <div className="flex flex-col gap-5">
         <h2 className="text-4xl text-white font-bold">Histoire</h2>
         <VerticalTimeline>

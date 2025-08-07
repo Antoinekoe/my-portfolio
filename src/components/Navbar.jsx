@@ -24,7 +24,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
       </div>
-      {isClicked && <MobileNavbar />}
+      {isClicked && <MobileNavbar setIsClicked={setIsClicked} />}
     </>
   );
 };
