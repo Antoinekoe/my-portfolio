@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 * {
   font-family: "Inter", sans-serif;
 }
@@ -9,8 +11,12 @@ body {
   overflow-y: scroll;
 }
 
-.listItems {
+.listItemsDark {
   @apply border-b-white border-b-1 pb-5;
+}
+
+.listItemsColor {
+  @apply border-b-black border-b-1 pb-5;
 }
 
 @keyframes float {
@@ -48,4 +54,14 @@ body {
 
 .techStack {
   @apply text-[#0D1116] bg-white rounded-2xl px-3 py-1 text-sm;
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px 0 #00000024, 0 1px 5px 0 #0000001f;
+}
+
+.navbar-shadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline::before {
+  background: #e5e5e6 !important;
 }

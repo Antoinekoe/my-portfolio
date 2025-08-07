@@ -8,15 +8,12 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  // Check system preference on first load
-  useEffect(() => {
+  const [isDarkMode, setIsDarkMode] = useState(() => {
     const systemPrefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)"
     ).matches;
-    setIsDarkMode(systemPrefersDark);
-  }, []);
+    return systemPrefersDark;
+  });
 
   // Apply dark mode to HTML element
   useEffect(() => {

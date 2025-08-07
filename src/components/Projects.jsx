@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div
-      className="grid grid-cols-1 gap-10 bg-[#0D1116] text-white px-8"
+      className="grid grid-cols-1 gap-10 bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white px-8"
       id="projets"
     >
       <h2 className="text-4xl font-bold">Projets personnels</h2>

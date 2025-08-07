@@ -66,7 +66,7 @@ const Form = () => {
 
   return (
     <div
-      className="flex flex-col px-8 gap-5 bg-[#0D1116] text-white pb-10"
+      className="flex flex-col px-8 gap-5 bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white pb-10"
       id="contact"
     >
       <h2 className="text-4xl font-bold">Contactez-moi !</h2>
@@ -77,7 +77,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.lName}
           name="lName"
-          className="bg-white text-black rounded h-9 focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2 border-1 border-gray-400"
           maxLength={40}
           required
         />
@@ -87,7 +87,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.fName}
           name="fName"
-          className="bg-white text-black rounded h-9 focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2 border-1 border-gray-400"
           maxLength={40}
           required
         />
@@ -97,7 +97,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.email}
           name="email"
-          className="bg-white text-black rounded h-9 focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2 border-1 border-gray-400"
           maxLength={40}
           required
         />
@@ -108,7 +108,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.phone}
           name="phone"
-          className="bg-white text-black rounded h-9 focus:outline-none px-2"
+          className="bg-white text-black rounded h-9 focus:outline-none px-2 border-1 border-gray-400"
           maxLength={30}
         />
         <label>Votre message *</label>
@@ -116,7 +116,7 @@ const Form = () => {
           onChange={handleChange}
           value={input.message}
           name="message"
-          className="bg-white text-black rounded focus:outline-none px-2"
+          className="bg-white text-black rounded focus:outline-none px-2 border-1 border-gray-400"
           rows="5"
           minLength={3}
           required
@@ -125,7 +125,7 @@ const Form = () => {
           {formMessage.length > 0 ? <div>{formMessage}</div> : ""}
           <button
             type="submit"
-            className="flex justify-center items-center text-[#0D1116] bg-white rounded px-3 py-1 gap-2"
+            className="flex justify-center items-center text-[#0D1116] bg-white rounded px-3 py-1 gap-2 border-1 border-gray-400"
           >
             Envoyer{" "}
             {isLoading ? (

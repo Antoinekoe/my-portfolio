@@ -7,7 +7,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
 
   return (
     <>
-      <div className="flex justify-between px-8 py-5 bg-white dark:bg-[#0D1116] text-white">
+      <div className="flex justify-between px-8 py-5 bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white relative shadow-lg">
         {isDarkMode ? (
           <Moon
             className="cursor-pointer text-black dark:text-white"
@@ -20,7 +20,9 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
           />
         )}
         <Menu
-          className={`${isClicked ? "hidden" : ""} sm:hidden`}
+          className={`${
+            isClicked ? "hidden" : ""
+          } sm:hidden text-black dark:text-white`}
           onClick={() => setIsClicked(true)}
         />
         <X

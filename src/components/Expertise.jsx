@@ -3,12 +3,12 @@ import React from "react";
 const Expertise = () => {
   return (
     <div
-      className="bg-[#0D1116] px-8 text-white flex flex-col items-start gap-5 py-10"
+      className="bg-[#F8F9FA] dark:bg-[#0D1116] px-8 text-black dark:text-white flex flex-col items-start gap-5 py-10"
       id="expertise"
     >
       <h2 className="text-4xl font-bold">Expertise</h2>
       <img
-        className="h-[40px] fill-white"
+        className="h-[40px] brightness-0 dark:brightness-0 dark:invert"
         src="/doodles/hero/react.svg"
         alt=""
       />
@@ -31,7 +31,7 @@ const Expertise = () => {
       </div>
 
       <img
-        className="h-[40px] fill-white"
+        className="h-[40px] brightness-0 dark:brightness-0 dark:invert"
         src="/doodles/expertise/wordpress.svg"
         alt=""
       />
@@ -57,7 +57,7 @@ const Expertise = () => {
       </div>
 
       <img
-        className="h-[40px] fill-white"
+        className="h-[40px] brightness-0 dark:brightness-0 dark:invert"
         src="/doodles/expertise/handshake.svg"
         alt=""
       />

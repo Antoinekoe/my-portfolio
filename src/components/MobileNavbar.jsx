@@ -9,18 +9,30 @@ const MobileNavbar = ({ setIsClicked }) => {
     }
   };
   return (
-    <div className="absolute h-full w-full px-8 py-10 bg-[#0D1116] text-white z-50">
+    <div className="absolute h-full w-full px-8 py-10 bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white z-50">
       <ul className="flex flex-col gap-10">
-        <li className="listItems" onClick={() => scrollToSection("expertise")}>
+        <li
+          className="listItemsColor dark:listItemsDark"
+          onClick={() => scrollToSection("expertise")}
+        >
           Expertise
         </li>
-        <li className="listItems" onClick={() => scrollToSection("histoire")}>
+        <li
+          className="listItemsColor dark:listItemsDark"
+          onClick={() => scrollToSection("histoire")}
+        >
           Histoire
         </li>
-        <li className="listItems" onClick={() => scrollToSection("projets")}>
+        <li
+          className="listItemsColor dark:listItemsDark"
+          onClick={() => scrollToSection("projets")}
+        >
           Projets
         </li>
-        <li className="listItems" onClick={() => scrollToSection("contact")}>
+        <li
+          className="listItemsColor dark:listItemsDark"
+          onClick={() => scrollToSection("contact")}
+        >
           Contact
         </li>
       </ul>
