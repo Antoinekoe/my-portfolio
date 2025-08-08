@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#F8F9FA] dark:bg-[#0A0E12] flex flex-col justify-center items-center text-center pt-20 pb-40 px-10 gap-5">
+      <div className="bg-[#F8F9FA] dark:bg-[#0D1116] flex flex-col justify-center items-center text-center pt-50 pb-70 px-10 gap-5">
         <div className="md:max-w-[600px] lg:max-w-[1000px]">
           <div className="scaleElement">
             <div className="z-10 flex flex-col gap-10">
@@ -36,32 +36,37 @@ const Hero = () => {
             </div>
             <div className="z-9">
               <img
-                className="floatElement absolute h-[60px] top-[-30px] right-[-20px]"
+                className="floatElement absolute h-[60px] top-[-30px] right-[-20px] lg:right-[250px] lg:h-[80px] lg:top-[-40px]"
                 src="/doodles/hero/speech.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[70px] bottom-[-160px] right-[30px]"
+                className="hidden lg:block lg:absolute lg:h-[120px] lg:top-[-60px] lg:left-[200px]"
+                src="/doodles/hero/pop.svg"
+                alt=""
+              />
+              <img
+                className="floatElement absolute h-[70px] bottom-[-160px] right-[30px] lg:right-[200px] lg:h-[80px]"
                 src="/doodles/hero/coding.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[80px] top-[250px] right-[20px]"
+                className="floatElement absolute h-[80px] top-[250px] right-[70px]"
                 src="/doodles/hero/html.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[80px] top-[-70px] left-[10px]"
+                className="floatElement absolute h-[80px] top-[-70px] left-[10px] lg:top-[300px] lg:left-[550px]"
                 src="/doodles/hero/js.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[100px] left-[20px] bottom-[-120px]"
+                className="floatElement absolute h-[100px] left-[50px] bottom-[-120px] lg:h-[130px]"
                 src="/doodles/hero/laptop.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[70px] bottom-[20px] left-[50px]"
+                className="floatElement absolute h-[70px] bottom-[20px] left-[50px] lg:left-[350px] lg:bottom-[-10px]"
                 src="/doodles/hero/star-outline.svg"
                 alt=""
               />

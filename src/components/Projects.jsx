@@ -6,12 +6,16 @@ const Projects = () => {
       className=" bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white px-8"
       id="projets"
     >
-      <div className="flex flex-col gap-5 lg:max-w-[1000px] lg:mx-auto">
-        <h2 className="text-4xl font-bold text-center">Projets personnels</h2>
+      <div className="flex flex-col gap-10 py-15 lg:max-w-[2000px] lg:mx-auto">
+        <h2 className="text-4xl font-bold">Projets personnels</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="flex flex-col gap-5">
             <a href="https://ly1.fr/" target="_blank" rel="noopener noreferrer">
-              <img src="/projects/ly1.webp" className="rounded" alt="" />
+              <img
+                src="/projects/ly1.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt=""
+              />
             </a>
             <h3 className="text-2xl font-bold">Ly1</h3>
             <span>
@@ -26,7 +30,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/projects/kalai.webp" className="rounded" alt="" />
+              <img
+                src="/projects/kalai.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt=""
+              />
             </a>
             <h3 className="text-2xl font-bold">Kalai</h3>
             <span>
@@ -41,7 +49,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/projects/getall.webp" className="rounded" alt="" />
+              <img
+                src="/projects/getall.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt=""
+              />
             </a>
             <h3 className="text-2xl font-bold">GetALL</h3>
             <span>
@@ -55,7 +67,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/projects/mac-find.webp" className="rounded" alt="" />
+              <img
+                src="/projects/mac-find.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt=""
+              />
             </a>
             <h3 className="text-2xl font-bold">Mac Find</h3>
             <span>
@@ -69,7 +85,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/projects/gamescore.webp" className="rounded" alt="" />
+              <img
+                src="/projects/gamescore.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt=""
+              />
             </a>
             <h3 className="text-2xl font-bold">Game Score</h3>
             <span>
@@ -85,7 +105,7 @@ const Projects = () => {
             >
               <img
                 src="/projects/lileoinformatique.webp"
-                className="rounded"
+                className="rounded transition-transform duration-300 hover:scale-105"
                 alt=""
               />
             </a>
@@ -98,7 +118,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/projects/elsalehoux.webp" className="rounded" alt="" />
+              <img
+                src="/projects/elsalehoux.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt=""
+              />
             </a>
             <h3 className="text-2xl font-bold">Elsa Lehoux</h3>
             <span>Un portfolio pour une graphiste</span>
