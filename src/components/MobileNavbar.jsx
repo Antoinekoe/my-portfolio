@@ -1,5 +1,3 @@
-import React from "react";
-
 const MobileNavbar = ({ setIsClicked }) => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);

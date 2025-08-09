@@ -1,5 +1,5 @@
 import { Loader2, SendHorizonal } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Form = () => {
@@ -21,6 +21,7 @@ const Form = () => {
     }));
   };
 
+  // Handle form submission with EmailJS
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -32,7 +33,7 @@ const Form = () => {
     setIsLoading(true);
 
     try {
-      const result = await emailjs.send(
+      await emailjs.send(
         import.meta.env.VITE_YOUR_SERVICE_ID,
         import.meta.env.VITE_YOUR_TEMPLATE_ID,
         {
@@ -57,7 +58,6 @@ const Form = () => {
         message: "",
       });
     } catch (error) {
-      console.error("Erreur:", error);
       setFormMessage("Erreur lors de l'envoi du message. Veuillez réessayer.");
     } finally {
       setIsLoading(false);
@@ -139,7 +139,7 @@ const Form = () => {
             {formMessage.length > 0 ? <div>{formMessage}</div> : ""}
             <button
               type="submit"
-              className="flex justify-center items-center text-[#0D1116] bg-white rounded px-3 py-1 gap-2 border-1 border-gray-400"
+              className="flex hover:cursor-pointer justify-center items-center text-[#0D1116] bg-white rounded px-3 py-1 gap-2 border-1 border-gray-400"
             >
               Envoyer{" "}
               {isLoading ? (

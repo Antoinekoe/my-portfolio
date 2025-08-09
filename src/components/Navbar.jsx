@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, Moon, Sun, X } from "lucide-react";
 import MobileNavbar from "./MobileNavbar";
 
 const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   const [isClicked, setIsClicked] = useState(false);
 
+  // Smooth scroll to section and close mobile menu
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {

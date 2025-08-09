@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
 function App() {
+  // Initialize dark mode based on system preference
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const systemPrefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)"

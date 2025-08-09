@@ -1,5 +1,3 @@
-import React from "react";
-
 const Projects = () => {
   return (
     <div
@@ -14,7 +12,7 @@ const Projects = () => {
               <img
                 src="/projects/ly1.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Ly1 project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">Ly1</h3>
@@ -33,7 +31,7 @@ const Projects = () => {
               <img
                 src="/projects/kalai.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Kalai project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">Kalai</h3>
@@ -52,7 +50,7 @@ const Projects = () => {
               <img
                 src="/projects/getall.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Getall project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">GetALL</h3>
@@ -70,7 +68,7 @@ const Projects = () => {
               <img
                 src="/projects/mac-find.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Mac-find project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">Mac Find</h3>
@@ -88,7 +86,7 @@ const Projects = () => {
               <img
                 src="/projects/gamescore.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Gamescore project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">Game Score</h3>
@@ -106,7 +104,7 @@ const Projects = () => {
               <img
                 src="/projects/lileoinformatique.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Lileo informatique project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">Lileo Informatique</h3>
@@ -121,7 +119,7 @@ const Projects = () => {
               <img
                 src="/projects/elsalehoux.webp"
                 className="rounded transition-transform duration-300 hover:scale-105"
-                alt=""
+                alt="Elsa lehoux project screenshot"
               />
             </a>
             <h3 className="text-2xl font-bold">Elsa Lehoux</h3>

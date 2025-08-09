@@ -1,5 +1,3 @@
-import React from "react";
-
 const Expertise = () => {
   return (
     <div
@@ -13,7 +11,7 @@ const Expertise = () => {
             <img
               className="h-[40px] brightness-0 dark:brightness-0 dark:invert"
               src="/doodles/hero/react.svg"
-              alt=""
+              alt="Decorative React icon"
             />
             <h3 className="font-bold text-lg">Développement web Full Stack</h3>
             <span>
@@ -37,7 +35,7 @@ const Expertise = () => {
             <img
               className="h-[40px] brightness-0 dark:brightness-0 dark:invert"
               src="/doodles/expertise/wordpress.svg"
-              alt=""
+              alt="Decorative WordPress icon"
             />
             <h3 className="font-bold text-lg">Création de sites WordPress</h3>
             <span>
@@ -64,7 +62,7 @@ const Expertise = () => {
             <img
               className="h-[40px] brightness-0 dark:brightness-0 dark:invert"
               src="/doodles/expertise/handshake.svg"
-              alt=""
+              alt="Decorative Handshake icon"
             />
             <h3 className="font-bold text-lg">
               Gestion de projets digitaux et webmastering
@@ -79,7 +77,7 @@ const Expertise = () => {
             <div className="flex flex-wrap gap-2 items-center pb-10">
               <span>Stack technique :</span>
               <span className="techStack">Jira</span>
-              <span className="techStack">WordPess</span>
+              <span className="techStack">WordPress</span>
               <span className="techStack">Jahia</span>
               <span className="techStack">Google Analytics</span>
               <span className="techStack">AT Internet</span>
