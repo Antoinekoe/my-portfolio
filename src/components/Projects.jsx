@@ -43,6 +43,21 @@ const Projects = () => {
           </div>
           <div className="flex flex-col gap-5">
             <a
+              href="https://www.lileo-informatique.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/projects/lileoinformatique.webp"
+                className="rounded transition-transform duration-300 hover:scale-105"
+                alt="Lileo informatique project screenshot"
+              />
+            </a>
+            <h3 className="text-2xl font-bold">Lileo Informatique</h3>
+            <span>Un site vitrine pour un magasin d'informatique</span>
+          </div>
+          <div className="flex flex-col gap-5">
+            <a
               href="https://get-all.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
@@ -95,21 +110,7 @@ const Projects = () => {
               fonction d'une liste provenant de l'API IGDB
             </span>
           </div>
-          <div className="flex flex-col gap-5">
-            <a
-              href="https://www.lileo-informatique.fr/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/projects/lileoinformatique.webp"
-                className="rounded transition-transform duration-300 hover:scale-105"
-                alt="Lileo informatique project screenshot"
-              />
-            </a>
-            <h3 className="text-2xl font-bold">Lileo Informatique</h3>
-            <span>Un site vitrine pour un magasin d'informatique</span>
-          </div>
+
           <div className="flex flex-col gap-5 pb-10">
             <a
               href="https://elsalehoux.fr/"
