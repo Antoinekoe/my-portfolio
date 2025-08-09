@@ -73,7 +73,7 @@ const Form = () => {
         <h2 className="text-4xl font-bold">Contactez-moi !</h2>
         <form
           onSubmit={handleSubmit}
-          className="grid grid-cols-1 gap-7 lg:grid-cols-2"
+          className="grid grid-cols-2 gap-7 lg:grid-cols-2"
         >
           <div className="flex flex-col gap-2">
             <label>Nom *</label>
@@ -135,7 +135,7 @@ const Form = () => {
               required
             />
           </div>
-          <div className="flex gap-2 mt-2">
+          <div className="flex gap-2 col-span-2 mt-2">
             {formMessage.length > 0 ? <div>{formMessage}</div> : ""}
             <button
               type="submit"
