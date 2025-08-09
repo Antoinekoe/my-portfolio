@@ -16,7 +16,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   return (
     <>
       <div className="px-8 py-5 min-h-[5vh] bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white relative shadow-lg">
-        <div className="flex justify-between lg:max-w-[2000px] lg:mx-auto">
+        <div className="flex justify-between lg:max-w-[1500px] lg:mx-auto">
           {isDarkMode ? (
             <Moon
               className="cursor-pointer text-black dark:text-white"

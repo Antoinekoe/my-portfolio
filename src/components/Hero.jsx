@@ -4,15 +4,16 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#F8F9FA] dark:bg-[#0D1116] flex flex-col justify-center items-center text-center pt-50 pb-70 px-10 gap-5">
+      <div className="bg-[#F8F9FA] dark:bg-[#0D1116] flex flex-col justify-center items-center text-center pt-30 pb-20 lg:pt-30 lg:pb-40 px-10 gap-5">
         <div className="md:max-w-[600px] lg:max-w-[1000px]">
           <div className="scaleElement">
             <div className="z-10 flex flex-col gap-10">
               <h1 className="text-black dark:text-white font-semibold text-md lg:text-xl">
                 Bonjour, moi c'est Antoine !
               </h1>
-              <span className="text-black dark:text-white font-extrabold text-5xl lg:text-7xl">
-                Créateur de <span className="text-[#851DBF]">sites</span> et d'
+              <span className="text-black dark:text-white font-extrabold text-4xl sm:text-5xl lg:text-7xl">
+                Créateur de <span className="text-[#851DBF]">sites</span>
+                <br /> et d'
                 <span className="text-[#851DBF]">applications</span> web
               </span>
               <div className="flex justify-center gap-4">
@@ -36,37 +37,37 @@ const Hero = () => {
             </div>
             <div className="z-9">
               <img
-                className="floatElement absolute h-[60px] top-[-30px] right-[-20px] lg:right-[250px] lg:h-[80px] lg:top-[-40px]"
+                className="floatElement absolute h-[60px] top-[-30px] right-[-30px] lg:right-[130px] lg:h-[80px] lg:top-[-40px]"
                 src="/doodles/hero/speech.svg"
                 alt=""
               />
               <img
-                className="hidden lg:block lg:absolute lg:h-[120px] lg:top-[-60px] lg:left-[200px]"
+                className="hidden lg:block lg:absolute lg:h-[120px] lg:top-[-60px] lg:left-[100px]"
                 src="/doodles/hero/pop.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[70px] bottom-[-160px] right-[30px] lg:right-[200px] lg:h-[80px]"
+                className="floatElement absolute h-[70px] bottom-[-160px] right-[30px] lg:right-[300px] lg:h-[80px]"
                 src="/doodles/hero/coding.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[80px] top-[250px] right-[70px]"
+                className="floatElement absolute h-[80px] top-[230px] right-[5px]"
                 src="/doodles/hero/html.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[80px] top-[-70px] left-[10px] lg:top-[300px] lg:left-[550px]"
+                className="floatElement absolute h-[80px] top-[-80px] left-[10px] lg:top-[300px] lg:left-[470px]"
                 src="/doodles/hero/js.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[100px] left-[50px] bottom-[-120px] lg:h-[130px]"
+                className="floatElement absolute h-[100px] left-[10px] bottom-[-120px] lg:h-[130px]"
                 src="/doodles/hero/laptop.svg"
                 alt=""
               />
               <img
-                className="floatElement absolute h-[70px] bottom-[20px] left-[50px] lg:left-[350px] lg:bottom-[-10px]"
+                className="floatElement absolute h-[70px] bottom-[20px] left-[50px] lg:left-[230px] lg:bottom-[-10px]"
                 src="/doodles/hero/star-outline.svg"
                 alt=""
               />

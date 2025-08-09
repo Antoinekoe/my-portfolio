@@ -6,7 +6,7 @@ const Expertise = () => {
       className="bg-[#F8F9FA] dark:bg-[#0D1116] px-8 text-black dark:text-white pt-10"
       id="expertise"
     >
-      <div className="flex flex-col gap-10 py-25 items-start lg:max-w-[2000px] mx-auto">
+      <div className="flex flex-col gap-10 pt-25 pb-10 items-start lg:max-w-[1500px] mx-auto">
         <h2 className="text-4xl font-bold">Expertise</h2>
         <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-10">
           <div className="flex flex-col items-start gap-3">

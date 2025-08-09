@@ -69,7 +69,7 @@ const Form = () => {
       className="px-8 bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white pb-10"
       id="contact"
     >
-      <div className="flex flex-col gap-5 lg:max-w-[2000px] lg:mx-auto">
+      <div className="flex flex-col gap-5 lg:max-w-[1500px] lg:mx-auto">
         <h2 className="text-4xl font-bold">Contactez-moi !</h2>
         <form
           onSubmit={handleSubmit}

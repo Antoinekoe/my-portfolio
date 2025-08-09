@@ -6,7 +6,7 @@ const Projects = () => {
       className=" bg-[#F8F9FA] dark:bg-[#0D1116] text-black dark:text-white px-8"
       id="projets"
     >
-      <div className="flex flex-col gap-10 py-15 lg:max-w-[2000px] lg:mx-auto">
+      <div className="flex flex-col gap-10 py-15 lg:max-w-[1500px] lg:mx-auto">
         <h2 className="text-4xl font-bold">Projets personnels</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="flex flex-col gap-5">

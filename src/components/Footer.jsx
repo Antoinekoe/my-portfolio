@@ -4,7 +4,13 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-[#F8F9FA] dark:bg-[#0D1116]">
-      <div className="flex justify-center gap-4 py-5 border-t-1 border-black dark:border-white max-w-[2000px] mx-auto">
+      <div
+        className="flex justify-center gap-4 py-5 max-w-[2000px] mx-auto relative"
+        style={{
+          boxShadow:
+            "0 -5px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05)",
+        }}
+      >
         <a
           href="https://github.com/Antoinekoe"
           target="_blank"
